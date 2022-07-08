@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: content-box;
+    bo
+}
+
+.container{
+    background-image: url('./images/Background1.png');
+    text-align: center;
+    background-origin: padding-box;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    padding-left: 80%;
+}

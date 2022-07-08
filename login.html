@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
 </head>
 <header>
     <h1>LOGIN</h1>
 </header>
 <body>
+
+    <nav>
+        <a href="#Login" class="active">Login</a>
+        <a href="Register.html">Register</a>
+    </nav>
     <div class=container>
         <form method="post" method="#">
             <p>Username:<input type="email" inputmode="text" id="uid"></p>
             <p>Password:<input type="password" inputmode="text" id="pwd" minlength="9" maxlength="30"></p>
             <input type="button" value="Login" onclick="login();"><br>
-            <span><small>Do not have an account?</small></span><a href="register.html" target="_blank">Create account</a><br> 
+            <span><small>Do not have an account?</small></span><a href="Register.html" target="_blank">Create account</a><br> 
             <a href="#">Forgot Password?</a><br>
             <a href="#">Forgot Username?</a>
         </form>

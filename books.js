@@ -12,8 +12,8 @@ class Book{
 
 let books=[];
 
-books.push(new Book('Surviving Loss','Busisiwe Mahlangu','isbn', 120, "a lesson about winning", "./Gladiator.jpg"));
-books.push(new Book('Clocking in','Busisiwe Mahlangu','isbn', 120, "a lesson about winning", "./Aladin.jpg"));
+books.push(new Book('Surviving Loss','Busisiwe Mahlangu','isbn', 120, "a lesson about winning", "./images/java1.jpg"));
+books.push(new Book('Clocking in','Busisiwe Mahlangu','isbn', 120, "a lesson about winning", "./images/html.jpg"));
 let bookshelve=document.getElementById('bookshelve');
 let text="";
 
